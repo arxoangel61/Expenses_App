@@ -1,0 +1,219 @@
+
+@import "popup.css";
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 905px;
+}
+
+.main {
+
+}
+
+.main h1 {
+    margin-top: 67px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 41px;
+}
+
+.js-input {
+    
+    padding: 10px 20px 10px 20px;
+    font-size: 32px;
+    font-weight: 400;
+    width: 300px;
+    border: none; 
+}
+.js-input:focus-visible {
+    outline: none;
+}
+.main__num::after {
+    content: "руб.";
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.main__num{
+    border: 1px solid black;
+    width: 430px;  
+}
+
+.js-button {
+    margin-left: 20px;
+    padding: 12px 100px;
+    border: none;
+    background-color: #0094FF;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.js-button:active {
+    background-color: red;
+    color: #000;
+}
+
+.history__list {
+    
+}
+
+.history__items {
+    list-style-type:none;
+}
+
+.status_green {
+    color: green;
+}
+
+.status_red {
+    color: red;
+}
+
+.status_black {
+    color: #000;
+}
+
+
+.info {
+    margin-top: 65px;
+    display: flex;
+    gap: 0 50px;
+}
+
+.info__limit {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+.info__status {
+    margin-top: 35px;
+}
+
+.js-button-reset {
+    margin-top: 70px;
+    padding: 10px 0;
+    width: 464px;
+    font-size: 32px;
+    font-weight: 400;
+    background-color: #F00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.js-button-reset:active {
+    background-color: rgba(116, 92, 92);
+}
+
+title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.js-history ol{
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.js-history ol>li{
+    margin-bottom: 5px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+
+.title-limit {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.limit-num {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.info__status {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.js-status-num {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.limit-contant {
+    display: flex;
+    gap: 0 10px;
+}
+
+.js-btn {
+    background-image: url('image 1.svg');
+    width: 42px;
+    height: 42px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.main__input {
+    display: flex;
+}
+
+.categorySelect{
+    width: 431px;
+    height: 60px;
+    padding: 0 10px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.categorySelect:focus-visible {
+    outline: none;
+}
+
+.list-text { 
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.categorySelect {
+    margin-top: 40px;
+}
+
+.rub {
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 400;
+    list-style-type:none;
+}
